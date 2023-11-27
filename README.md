@@ -13,25 +13,23 @@
 
 
 ``` 
- 1. git clone https://github.com/gowthamand/django-crud-ajax-login-register-fileupload
+ 1. Change settings.py MYSQL CONFIGURATIONS (name, user, password)
 
- 2. Change settings.py MYSQL CONFIGURATIONS (name, user, password)
+ 2.  cd django-crud-ajax-login-register-fileupload
 
- 3.  cd django-crud-ajax-login-register-fileupload
+ 3. pip3 install -r requirements.txt
 
- 4. pip3 install -r requirements.txt
+ 4. python3 manage.py migrate
 
- 5. python3 manage.py migrate
+ 5. python3 manage.py makemigrations
 
- 6. python3 manage.py makemigrations
+ 6. python3 manage.py migrate
 
- 7. python3 manage.py migrate
+ 7. python3 manage.py runserver
 
- 8. python3 manage.py runserver
+ 8. Login to http://127.0.0.1:8000
 
- 9. Login to http://127.0.0.1:8000
-
- 10. python manage.py createsuperuser (enter username, email, password)
+ 9. python manage.py createsuperuser (enter username, email, password)
 
 ```
 
